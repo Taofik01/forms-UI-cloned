@@ -1,0 +1,15 @@
+input, checkbox, radio, textarea{
+    border:2px solid black;
+    border-inline-color: black;
+}
+
+input[type ="checkbox"]:checked {
+    color:black;
+    background-color: black;
+    background: black;
+}
+
+span{
+    display: inline-block;
+    background-color: #9b111e;
+}

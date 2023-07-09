@@ -1,0 +1,116 @@
+<!doctype>
+<html>
+    <head>
+        <link rel="stylesheet" href="form 21.css">
+    </head>
+    <BODY>
+        <font color="#0F12CE" size="4" face="Tahoma"><p align="center">Student registrtion form using Table in HTML</p></font>
+        <center>
+        <table height="550" width="450" border="0" bgcolor="#FF4143">
+            <tr>
+                <td height="20" width="150"><font color="white">First Name</font></td>
+                <td height="20" width="150"><input type="text" max="50" ></td>
+                <td height="20" width="150" ><font size="1" color="white">(Max 50 characters allowed) </font></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white">Last Name</font></td>
+                <td height="20" width="150"><input type="text" max="50" ></td>
+                <td height="20" width="150"><font size="1" color="white">(Max 50 characters allowed) </font></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white">Email ID</font></td>
+                <td height="20" width="150"><input type="email" max="0" min="10" ></td>
+                <td height="20" width="150"></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white">Mobile Number</font></td>
+                <td height="20" width="150"><input type="tel" max="10" ></td>
+                <td height="20" width="150"><font size="1" color="white">( 10 characters allowed) </font></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white">Gender</font></td>
+                <td height="20" width="150">
+                    <input type="radio" name="as"><font COLOR="WHITE" size="2">Male</font> 
+                    <input type="radio" name="as"><FONT color="white" size="2">Female</FONT>
+                </td>
+                <td height="20" width="150"></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="2">Date Of Birth (DOB)</font></td>
+                <td height="20" width="150"><input type="date" max="10" ></td>
+                <td height="20" width="150"></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="3">Address</font></td>
+                <td height="20" width="150" colspan="2">
+                    <textarea cols="30" rows="4">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="3">City</font></td>
+                <td height="20" width="150"><input type="text"></td>
+                <td height="20" width="150"><font color="white" size="1">(Max 50 characters allowed)</font></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="3">Pin code</font></td>
+                <td height="20" width="150"><input type="tel"></td>
+                <td height="20" width="150"><font color="white" size="1">(Max 6 characters allowed)</font></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="3">State</font></td>
+                <td height="20" width="150"><input type="text"></td>
+                <td height="20" width="150"><font color="white" size="1">(Max 6 characters allowed)</font></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="3">Country</font></td>
+                <td height="20" width="150"><input type="text"></td>
+                <td height="20" width="150"></td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="3">Hobbies</font></td>
+                <td height="20" width="150" colspan="2">
+                    <input type="checkbox"> <font   size="1" color="white">Drawing</font>
+                    <input type="checkbox"> <font  size="1" color="white">Singing</font>
+                    <input type="checkbox"> <font sze="1" color="white">Dancing</font>
+                    <input type="checkbox"> <font  size="1" color="white">sketching</font><br>
+                    <input type="checkbox"> <font size="1" color="white">others</font>
+                    <input type="text" placeholder="hobbies"> <font color="white" size="1">(max 50 characters allowed)</font>
+                </td>
+            </tr>
+            <tr>
+                <td height="20" width="150"><font color="white" size="3">Qualifications</font></td>
+                <td height="20" width="150" colspan="2">
+                    <span><input type="checkbox"></span> <font   size="1" color="white">High school(10th)</font><br>
+                    <span><input type="checkbox"></span> <font  size="1" color="white">Higher school (12th)</font><br>
+                    <span><input type="checkbox"></span> <font sze="1" color="white">Graduation(bachelors)</font><br>
+                    <span><input type="checkbox"></span> <font  size="1" color="white">Post Graduation(Masters)</font><br>
+                    <span><input type="checkbox"></span> <font size="1" color="white">PHD</font><br>  
+                </td>
+            </tr>
+            <tr>
+                <td height="20" width="150"> <font   size="3" color="white">Courses Applied for</font><br></td>
+                <td height="20" width="150" colspan="2">
+                <input type="radio"> <font   size="1" color="white">BCA(Bachelor of Computer Application)</font><br>
+                <input type="radio"> <font   size="1" color="white">B.comms(Bachelor of Commerce)</font><br>
+                <input type="radio"> <font   size="1" color="white">B.sc(Bachelor of science)</font><br>
+                <input type="radio"> <font   size="1" color="white">BA(Bachelor of  Art)</font><br>
+                <input type="radio"> <font   size="1" color="white">M.C.A(Masters of Computer Application)</font><br>
+                <input type="radio"> <font   size="1" color="white">M.comms(Master of commerce)</font><br>
+                <input type="radio"></input> <font   size="1" color="white">M.Sc(Master of Science)</font><br>
+                <input type="radio"></input> <font   size="1" color="white">M.A(Master of Art)</font><br>
+                </td>
+            </tr>
+            <tr>
+                <td height="20" width="150"></td>
+                <td height="20" width="120">
+                    <p align="center"><input type="submit" value="  Submit  ">
+                        <input type="reset" value="  Reset  ">
+                </p></td>
+                <td height="20" width="50"></td>
+            </tr>
+        </table>
+        </center>
+    </BODY>
+</html>
